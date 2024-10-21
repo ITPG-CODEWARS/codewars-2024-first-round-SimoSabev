@@ -1,6 +1,6 @@
 "use client"
-import React, { useState } from "react";
-import { HeroParallax } from "@/components/ui/hero-parallax";
+import React, {useState} from "react";
+import {HeroParallax} from "@/components/ui/hero-parallax";
 import train1 from "@/assets/train1.jpg";
 import train2 from "@/assets/train2.jpg";
 import train3 from "@/assets/train3.jpg";
@@ -16,93 +16,95 @@ import train12 from "@/assets/train12.jpg";
 import train13 from "@/assets/train13.jpg";
 import train14 from "@/assets/train14.jpg";
 import train15 from "@/assets/train15.jpg";
-import { NavbarDemo } from "@/components/ui/Nav";
+import {NavbarDemo} from "@/components/ui/Nav";
 import {GlobeDemo} from "@/components/ui/Globe_section";
+import FeaturesSectionDemo from "@/components/blocks/features-section-demo-3";
 
 const products = [
-  {
-    title: "Product 1",
-    link: "/product-1",
-    thumbnail: train1.src,
-  },
-  {
-    title: "Product 2",
-    link: "/product-2",
-    thumbnail: train2.src,
-  },
-  {
-    title: "Product 3",
-    link: "/product-3",
-    thumbnail: train3.src,
-  },
-  {
-    title: "Product 4",
-    link: "/product-4",
-    thumbnail: train4.src,
-  },
-  {
-    title: "Product 5",
-    link: "/product-5",
-    thumbnail: train5.src,
-  },
-  {
-    title: "Product 1",
-    link: "/product-1",
-    thumbnail: train6.src,
-  },
-  {
-    title: "Product 2",
-    link: "/product-2",
-    thumbnail: train7.src,
-  },
-  {
-    title: "Product 3",
-    link: "/product-3",
-    thumbnail: train8.src,
-  },
-  {
-    title: "Product 4",
-    link: "/product-4",
-    thumbnail: train9.src,
-  },
-  {
-    title: "Product 5",
-    link: "/product-5",
-    thumbnail: train10.src,
-  },
-  {
-    title: "Product 1",
-    link: "/product-1",
-    thumbnail: train11.src,
-  },
-  {
-    title: "Product 2",
-    link: "/product-2",
-    thumbnail: train12.src,
-  },
-  {
-    title: "Product 3",
-    link: "/product-3",
-    thumbnail: train13.src,
-  },
-  {
-    title: "Product 4",
-    link: "/product-4",
-    thumbnail: train14.src,
-  },
-  {
-    title: "Product 5",
-    link: "/product-5",
-    thumbnail: train15.src,
-  },
+    {
+        title: "Product 1",
+        link: "/product-1",
+        thumbnail: train1.src,
+    },
+    {
+        title: "Product 2",
+        link: "/product-2",
+        thumbnail: train2.src,
+    },
+    {
+        title: "Product 3",
+        link: "/product-3",
+        thumbnail: train3.src,
+    },
+    {
+        title: "Product 4",
+        link: "/product-4",
+        thumbnail: train4.src,
+    },
+    {
+        title: "Product 5",
+        link: "/product-5",
+        thumbnail: train5.src,
+    },
+    {
+        title: "Product 1",
+        link: "/product-1",
+        thumbnail: train6.src,
+    },
+    {
+        title: "Product 2",
+        link: "/product-2",
+        thumbnail: train7.src,
+    },
+    {
+        title: "Product 3",
+        link: "/product-3",
+        thumbnail: train8.src,
+    },
+    {
+        title: "Product 4",
+        link: "/product-4",
+        thumbnail: train9.src,
+    },
+    {
+        title: "Product 5",
+        link: "/product-5",
+        thumbnail: train10.src,
+    },
+    {
+        title: "Product 1",
+        link: "/product-1",
+        thumbnail: train11.src,
+    },
+    {
+        title: "Product 2",
+        link: "/product-2",
+        thumbnail: train12.src,
+    },
+    {
+        title: "Product 3",
+        link: "/product-3",
+        thumbnail: train13.src,
+    },
+    {
+        title: "Product 4",
+        link: "/product-4",
+        thumbnail: train14.src,
+    },
+    {
+        title: "Product 5",
+        link: "/product-5",
+        thumbnail: train15.src,
+    },
 ];
 
 export default function Home() {
-  return (
-    <main>
-      <NavbarDemo />
-      <HeroParallax products={products} />
-        <GlobeDemo/>
-    </main>
-  );
+    return (
+        <main>
+            <NavbarDemo/>
+            <HeroParallax products={products}/>
+            <GlobeDemo/>
+            <FeaturesSectionDemo/>
+        </main>
+    );
 }
