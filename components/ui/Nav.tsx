@@ -22,10 +22,10 @@ function Navbar({className}: { className?: string }) {
             className={cn("fixed top-10 inset-x-0 max-w-2xl mx-auto z-50", className)}
         >
             <Menu setActive={setActive}>
-                <div className="w-full flex justify-between items-center">
-                    <div className="w-fit">
+                <div className="w-full h- flex justify-between items-center">
+                    <div className="w-fit absolute">
                         <Link href="/">
-                            <Image src={logo.src} alt="Trainco Logo" width={70} height={70}
+                            <Image src={logo.src} alt="Trainco Logo" width={60} height={60}
                                    className="rounded-full"></Image>
                         </Link>
                     </div>

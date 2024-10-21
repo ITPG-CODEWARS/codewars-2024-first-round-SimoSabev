@@ -49,7 +49,6 @@ export const metadata: Metadata = {
             'es-ES': 'https://yourwebsite.com/es-ES',
         },
     },
-    manifest: '/manifest.json',
 };
 
 export default function RootLayout({

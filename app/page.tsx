@@ -22,78 +22,78 @@ import FeaturesSectionDemo from "@/components/blocks/features-section-demo-3";
 
 const products = [
     {
-        title: "Product 1",
-        link: "/product-1",
+        title: "The Royal Equinox",
+        link: "/the-royal-equinox",
         thumbnail: train1.src,
     },
     {
-        title: "Product 2",
-        link: "/product-2",
+        title: "Golden Horizon Express",
+        link: "/golden-horizon-express",
         thumbnail: train2.src,
     },
     {
-        title: "Product 3",
-        link: "/product-3",
+        title: "The Imperial Seraph",
+        link: "/the-imperial-seraph",
         thumbnail: train3.src,
     },
     {
-        title: "Product 4",
-        link: "/product-4",
+        title: "Celestial Voyage",
+        link: "/celestial-voyage",
         thumbnail: train4.src,
     },
     {
-        title: "Product 5",
-        link: "/product-5",
+        title: "The Gilded Odyssey",
+        link: "/the-gilded-odyssey",
         thumbnail: train5.src,
     },
     {
-        title: "Product 1",
-        link: "/product-1",
+        title: "Majestic Skies Express",
+        link: "/majestic-skies-express",
         thumbnail: train6.src,
     },
     {
-        title: "Product 2",
-        link: "/product-2",
+        title: "The Velvet Chariot",
+        link: "/the-velvet-chariot",
         thumbnail: train7.src,
     },
     {
-        title: "Product 3",
-        link: "/product-3",
+        title: "The Platinum Paragon",
+        link: "/the-platinum-paragon",
         thumbnail: train8.src,
     },
     {
-        title: "Product 4",
-        link: "/product-4",
+        title: "Sovereign Trails",
+        link: "/sovereign-trails",
         thumbnail: train9.src,
     },
     {
-        title: "Product 5",
-        link: "/product-5",
+        title: "The Crowned Voyager",
+        link: "/the-crowned-voyager",
         thumbnail: train10.src,
     },
     {
-        title: "Product 1",
-        link: "/product-1",
+        title: "Opulent Rails",
+        link: "/opulent-rails",
         thumbnail: train11.src,
     },
     {
-        title: "Product 2",
-        link: "/product-2",
+        title: "The Sapphire Monarch",
+        link: "/the-sapphire-monarch",
         thumbnail: train12.src,
     },
     {
-        title: "Product 3",
-        link: "/product-3",
+        title: "The Grand Virtuoso",
+        link: "/the-grand-virtuoso",
         thumbnail: train13.src,
     },
     {
-        title: "Product 4",
-        link: "/product-4",
+        title: "Silk Route Supreme",
+        link: "/silk-route-supreme",
         thumbnail: train14.src,
     },
     {
-        title: "Product 5",
-        link: "/product-5",
+        title: "The Exquisite Empress",
+        link: "/the-exquisite-empress",
         thumbnail: train15.src,
     },
 ];
@@ -103,7 +103,7 @@ export default function Home() {
         <main>
             <NavbarDemo/>
             <HeroParallax products={products}/>
-            <GlobeDemo/>
+                <GlobeDemo/>
             <FeaturesSectionDemo/>
         </main>
     );
