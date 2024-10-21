@@ -17,6 +17,7 @@ import train13 from "@/assets/train13.jpg";
 import train14 from "@/assets/train14.jpg";
 import train15 from "@/assets/train15.jpg";
 import { NavbarDemo } from "@/components/ui/Nav";
+import {GlobeDemo} from "@/components/ui/Globe_section";
 
 const products = [
   {
@@ -99,8 +100,11 @@ const products = [
 export default function Home() {
   return (
     <main>
-        <NavbarDemo />
+      <NavbarDemo />
       <HeroParallax products={products} />
+      <div className="w-full h-full">
+        <GlobeDemo/>
+      </div>
     </main>
   );
 }
