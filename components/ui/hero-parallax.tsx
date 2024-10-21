@@ -109,7 +109,7 @@ export const Header = () => {
         Welcome to <br /> Trainco
       </h1>
       <p className="max-w-2xl text-base md:text-xl mt-8 dark:text-neutral-200">
-        Here you will find the most interesting stories, secrets, <br/> legends and myths about trains!
+        Here you can buy every kind of train from the <br/> most luxurious to the most compact and budget ones!
       </p>
     </div>
   );
