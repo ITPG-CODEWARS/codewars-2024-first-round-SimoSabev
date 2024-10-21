@@ -103,7 +103,7 @@ export default function Home() {
         <main>
             <NavbarDemo/>
             <HeroParallax products={products}/>
-                <GlobeDemo/>
+            <GlobeDemo/>
             <FeaturesSectionDemo/>
         </main>
     );
