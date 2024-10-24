@@ -3,46 +3,29 @@
 import Image from "next/image";
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "../ui/3d-card";
-import Link from "next/link";
+import train1 from "@/assets/the-royal-equinox.jpg";
+import train2 from "@/assets/golden-horizon-express.jpg";
+import train3 from "@/assets/the-imperial-seraph.jpg";
 
 const cardData = [
   {
-    title: "Make things float in air",
+    title: "The Royal Equinox",
     description: "Hover over this card to unleash the power of CSS perspective",
-    imageUrl: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    imageUrl: train1.src,
     link: "https://twitter.com/mannupaaji",
   },
   {
-    title: "Make things float in air",
+    title: "Golden Horizon Express",
     description: "Hover over this card to unleash the power of CSS perspective",
-    imageUrl: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    imageUrl: train2.src,
     link: "https://twitter.com/mannupaaji",
   },
   {
-    title: "Make things float in air",
+    title: "The Imperial Seraph",
     description: "Hover over this card to unleash the power of CSS perspective",
-    imageUrl: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    imageUrl: train3.src,
     link: "https://twitter.com/mannupaaji",
   },
-  {
-    title: "Make things float in air",
-    description: "Hover over this card to unleash the power of CSS perspective",
-    imageUrl: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    link: "https://twitter.com/mannupaaji",
-  },
-  {
-    title: "Make things float in air",
-    description: "Hover over this card to unleash the power of CSS perspective",
-    imageUrl: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    link: "https://twitter.com/mannupaaji",
-  },
-  {
-    title: "Make things float in air",
-    description: "Hover over this card to unleash the power of CSS perspective",
-    imageUrl: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    link: "https://twitter.com/mannupaaji",
-  },
-  // Add more card data objects here
 ];
 
 export function ThreeDCardDemo() {
