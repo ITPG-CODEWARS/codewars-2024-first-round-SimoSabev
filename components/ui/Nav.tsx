@@ -49,7 +49,7 @@ function Navbar({className}: { className?: string }) {
                             </div>
                         </MenuItem>
                             <div className="flex flex-col space-y-4 text-white hover:opacity-[0.9]">
-                                <Link href="/Contacts">Contacts</Link>
+                                <Link href="/contacts">Contacts</Link>
                             </div>
                     </div>
                     <ModeToggle/>
