@@ -1,15 +1,13 @@
-// app/luxury-trains/page.tsx
-
 import React from 'react';
-import { NavbarDemo } from "@/components/ui/Nav";
-import { ThreeDCardDemo } from "@/components/ui/TrainCardLuxury";
+import {NavbarDemo} from "@/components/ui/Nav";
+import {ThreeDCardDemo} from "@/components/ui/TrainCardLuxury";
 
 const Luxury_Trains = () => {
     return (
         <div className="w-screen h-screen overflow-x-hidden">
-            <NavbarDemo />
+            <NavbarDemo/>
             <div className="mt-40">
-                <ThreeDCardDemo />
+                <ThreeDCardDemo/>
             </div>
         </div>
     );

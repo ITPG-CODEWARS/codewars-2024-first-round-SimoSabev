@@ -1,11 +1,12 @@
 "use client";
 
-import Image from "next/image";
 import React from "react";
+import Image from "next/image";
+import Link from "next/link";
 import { CardBody, CardContainer, CardItem } from "../ui/3d-card";
-import train1 from "@/assets/silk-route-supreme.jpg"
-import train2 from "@/assets/the-sapphire-monarch.jpg"
-import train3 from "@/assets/the-grand-virtuoso.jpg"
+import train1 from "@/assets/silk-route-supreme.jpg";
+import train2 from "@/assets/the-sapphire-monarch.jpg";
+import train3 from "@/assets/the-grand-virtuoso.jpg";
 
 const cardData = [
   {
@@ -33,7 +34,7 @@ export function ThreeDCardDemo1() {
     <div className="card-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 p-8">
       {cardData.map((card, index) => (
         <CardContainer key={index} className="inter-var">
-          <a href={card.link} target="_blank" rel="noopener noreferrer">
+          <Link href={card.link}>
             <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-full h-full rounded-xl p-6 pb-16 border">
               <CardItem
                 translateZ="50"
@@ -58,7 +59,7 @@ export function ThreeDCardDemo1() {
                 />
               </CardItem>
             </CardBody>
-          </a>
+          </Link>
         </CardContainer>
       ))}
     </div>
