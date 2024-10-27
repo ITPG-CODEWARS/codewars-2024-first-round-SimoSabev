@@ -1,5 +1,5 @@
 "use client"
-import React, {useState} from "react";
+import React from "react";
 import {HeroParallax} from "@/components/ui/hero-parallax";
 import train1 from "@/assets/train1.jpg";
 import train2 from "@/assets/train2.jpg";

@@ -4,10 +4,12 @@ import { MdEmail } from "react-icons/md";
 import { FaFacebook } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
+import {NavbarDemo} from "@/components/ui/Nav";
 
 export function CardSpotlightDemo() {
     return (
         <CardSpotlight className="min-h-screen w-full flex flex-col justify-evenly items-center p-4 md:p-8">
+            <NavbarDemo/>
             <p className="text-3xl md:text-5xl font-bold relative z-20 text-white">
                 Contacts
             </p>

@@ -3,7 +3,7 @@ import {CardSpotlightDemo} from '@/components/Contacts';
 
 const Page = () => {
     return (
-        <div className="w-full h-full">
+        <div className="w-full h-full fex flex-col justify-center items-center">
             <CardSpotlightDemo />
         </div>
     );
