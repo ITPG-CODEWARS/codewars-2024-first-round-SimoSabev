@@ -2,7 +2,7 @@ import type {Metadata} from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import {ThemeProvider} from "@/components/theme-provider"
-import logo from "@/assets/logo.png"
+import logo from "@/assets/logo.jpg"
 
 const geistSans = localFont({
     src: "./fonts/GeistVF.woff",
@@ -28,14 +28,6 @@ export const metadata: Metadata = {
         description: 'Legends of Trains',
         url: 'https://yourwebsite.com',
         siteName: 'Your Website',
-        // images: [
-        //     {
-        //         url: 'https://yourwebsite.com/images/og-image.jpg',
-        //         width: 1200,
-        //         height: 630,
-        //         alt: 'Og Image Alt Text',
-        //     },
-        // ],
         locale: 'en_US',
         type: 'website',
     },

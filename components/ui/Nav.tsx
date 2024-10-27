@@ -1,7 +1,7 @@
 "use client";
 import React, {useState} from "react";
-import {HoveredLink, Menu, MenuItem, ProductItem} from "../ui/navbar-menu";
-import logo from "@/assets/logo.png"
+import {Menu, MenuItem, ProductItem} from "../ui/navbar-menu";
+import logo from "@/assets/logo.jpg"
 import {cn} from "@/lib/utils";
 import Image from "next/image";
 import Link from "next/link";
@@ -27,13 +27,13 @@ function Navbar({className}: { className?: string }) {
                 <div className="w-full h- flex justify-between items-center">
                     <div className="w-fit absolute">
                         <Link href="/">
-                            <Image src={logo.src} alt="Trainco Logo" width={60} height={60}
+                            <Image src={logo.src} alt="Trainco Logo" width={100} height={100}
                                    className="rounded-full"></Image>
                         </Link>
                     </div>
                     <div className="w-full flex justify-center items-center gap-10">
                         <MenuItem setActive={setActive} active={active} item="Trains">
-                            <div className="  text-sm grid grid-cols-2 gap-10 p-4">
+                            <div className="  text-sm grid grid-rows-2 gap-10 p-4">
                                 <ProductItem
                                     title="Luxury Trains"
                                     href="/luxury-trains"
