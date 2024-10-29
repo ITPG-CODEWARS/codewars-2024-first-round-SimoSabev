@@ -1,13 +1,13 @@
-// app/luxury-trains/the-royal-equinox/page.tsx
 import React from 'react';
-import {SparklesPreview} from '@/components/TrainCardHeader';
-import trainImage from "@/assets/the-royal-equinox.jpg"
+import { SparklesPreview } from '@/components/TrainCardHeader';
+import trainImage from "@/assets/the-royal-equinox.jpg";
 import { NavbarDemo } from "@/components/ui/Nav";
+import { DynamicButton } from "@/components/ui/DynamicButton";
 
 const RoyalEquinox = () => {
     return (
-        <div className="w-full min-h-screen flex flex-col items-center justify-start overflow-auto bg-background">
-            <NavbarDemo/>
+        <div className="w-full min-h-screen flex flex-col items-center justify-start overflow-auto bg-background px-4 sm:px-6 lg:px-8">
+            <NavbarDemo />
             <SparklesPreview
                 header="The Royal Equinox"
                 image={trainImage.src}
@@ -20,6 +20,9 @@ const RoyalEquinox = () => {
                  mind, featuring plush bedding, ornate furnishings, and en-suite bathrooms adorned with marble
                  finishes."
             />
+            <div className="mb-4 sm:mb-6 md:mb-10 lg:mb-16">
+                <DynamicButton text="Back to Luxury Trains" link="/luxury-trains" />
+            </div>
         </div>
     );
 };

@@ -21,80 +21,81 @@ import {GlobeDemo} from "@/components/ui/Globe_section";
 import FeaturesSectionDemo from "@/components/blocks/features-section-demo-3";
 import {ExpandableCardDemo} from "@/components/ui/newest-trains";
 
+
 const products = [
     {
         title: "The Royal Equinox",
-        link: "/the-royal-equinox",
+        link: "#",
         thumbnail: train1.src,
     },
     {
         title: "Golden Horizon Express",
-        link: "/golden-horizon-express",
+        link: "#",
         thumbnail: train2.src,
     },
     {
         title: "The Imperial Seraph",
-        link: "/the-imperial-seraph",
+        link: "#",
         thumbnail: train3.src,
     },
     {
         title: "Celestial Voyage",
-        link: "/celestial-voyage",
+        link: "#",
         thumbnail: train4.src,
     },
     {
         title: "The Gilded Odyssey",
-        link: "/the-gilded-odyssey",
+        link: "#",
         thumbnail: train5.src,
     },
     {
         title: "Majestic Skies Express",
-        link: "/majestic-skies-express",
+        link: "#",
         thumbnail: train6.src,
     },
     {
         title: "The Velvet Chariot",
-        link: "/the-velvet-chariot",
+        link: "#",
         thumbnail: train7.src,
     },
     {
         title: "The Platinum Paragon",
-        link: "/the-platinum-paragon",
+        link: "#",
         thumbnail: train8.src,
     },
     {
         title: "Sovereign Trails",
-        link: "/sovereign-trails",
+        link: "#",
         thumbnail: train9.src,
     },
     {
         title: "The Crowned Voyager",
-        link: "/the-crowned-voyager",
+        link: "#",
         thumbnail: train10.src,
     },
     {
         title: "Opulent Rails",
-        link: "/opulent-rails",
+        link: "#",
         thumbnail: train11.src,
     },
     {
         title: "The Sapphire Monarch",
-        link: "/the-sapphire-monarch",
+        link: "#",
         thumbnail: train12.src,
     },
     {
         title: "The Grand Virtuoso",
-        link: "/the-grand-virtuoso",
+        link: "#",
         thumbnail: train13.src,
     },
     {
         title: "Silk Route Supreme",
-        link: "/silk-route-supreme",
+        link: "#",
         thumbnail: train14.src,
     },
     {
         title: "The Exquisite Empress",
-        link: "/the-exquisite-empress",
+        link: "#",
         thumbnail: train15.src,
     },
 ];

@@ -1,3 +1,4 @@
+// components/ui/hero-parallax.tsx
 "use client";
 import React from "react";
 import {
@@ -9,7 +10,8 @@ import {
 } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
-
+import { TailwindcssButtons } from "@/components/ui/buttonLink";
+import { DynamicButton } from "@/components/ui/DynamicButton";
 
 export const HeroParallax = ({
   products,
@@ -103,14 +105,30 @@ export const HeroParallax = ({
 };
 
 export const Header = () => {
+  const buttons = [
+    {
+      name: "See Luxury Trains",
+      description: "Gradient button with perfect corners",
+      component: <DynamicButton text="See Luxury Trains" link="/luxury-trains" />,
+    },
+    {
+      name: "See Budget Trains",
+      description: "Gradient button with perfect corners",
+      component: <DynamicButton text="See Budget Trains" link="/budget-trains" />,
+    },
+  ];
+
   return (
     <div className="max-w-7xl relative mx-auto py-20 md:py-40 px-4 w-full left-10 top-0">
       <h1 className="text-2xl md:text-8xl font-bold dark:text-white">
         Welcome to <br /> Trainco
       </h1>
       <p className="max-w-2xl text-base md:text-xl mt-8 dark:text-neutral-200">
-        Here you can buy every kind of train from the <br/> most luxurious to the most compact and budget ones!
+        Here you can buy every kind of train from the <br /> most luxurious to the most compact and budget ones!
       </p>
+      <div className="flex gap-x-16 mt-8 z-20 ">
+        <TailwindcssButtons buttons={buttons} />
+      </div>
     </div>
   );
 };

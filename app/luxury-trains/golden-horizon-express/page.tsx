@@ -1,12 +1,12 @@
-// app/luxury-trains/golden-horizon-express/page.tsx
 import React from 'react';
-import {SparklesPreview} from '@/components/TrainCardHeader';
-import trainImage from "@/assets/golden-horizon-express.jpg"
+import { SparklesPreview } from '@/components/TrainCardHeader';
+import trainImage from "@/assets/golden-horizon-express.jpg";
 import { NavbarDemo } from "@/components/ui/Nav";
+import { DynamicButton } from "@/components/ui/DynamicButton";
 
 const GoldenHorizonExpress = () => {
     return (
-        <div className="w-full min-h-screen flex flex-col items-center justify-start overflow-auto bg-background">
+        <div className="w-full min-h-screen flex flex-col items-center justify-start overflow-auto bg-background px-4 sm:px-6 lg:px-8">
             <NavbarDemo />
             <SparklesPreview
                 header="Golden Horizon Express"
@@ -18,6 +18,9 @@ const GoldenHorizonExpress = () => {
                 features sun-kissed colors and artfully arranged interiors, creating an inviting atmosphere that
                 captivates from the moment you step aboard."
             />
+            <div className="mb-4 sm:mb-6 md:mb-10 lg:mb-16">
+                <DynamicButton text="Back to Luxury Trains" link="/luxury-trains" />
+            </div>
         </div>
     );
 };

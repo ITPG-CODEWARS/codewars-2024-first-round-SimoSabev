@@ -1,12 +1,13 @@
 import React from 'react';
-import {SparklesPreview} from '@/components/TrainCardHeader';
-import trainImage from "@/assets/silk-route-supreme.jpg"
-import {NavbarDemo} from "@/components/ui/Nav";
+import { SparklesPreview } from '@/components/TrainCardHeader';
+import trainImage from "@/assets/silk-route-supreme.jpg";
+import { NavbarDemo } from "@/components/ui/Nav";
+import { DynamicButton } from "@/components/ui/DynamicButton";
 
 const SilkRouteSupreme = () => {
     return (
-        <div className="w-full min-h-screen flex flex-col items-center justify-start overflow-auto bg-background">
-            <NavbarDemo/>
+        <div className="w-full min-h-screen flex flex-col items-center justify-start overflow-auto bg-background px-4 sm:px-6 lg:px-8">
+            <NavbarDemo />
             <SparklesPreview
                 header="Silk Route Supreme"
                 image={trainImage.src}
@@ -18,6 +19,9 @@ const SilkRouteSupreme = () => {
                 sumptuous bedding and exquisite decor that provide comfort and elegance throughout your
                 journey."
             />
+            <div className="mb-4 sm:mb-6 md:mb-10 lg:mb-16">
+                <DynamicButton text="Back to Budget Trains" link="/budget-trains" />
+            </div>
         </div>
     );
 };

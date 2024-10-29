@@ -9,6 +9,7 @@ import {ModeToggle} from "@/components/ui/theme-chage";
 import luxury from "@/assets/team.jpg"
 import budget from "@/assets/luxury5.jpg"
 
+
 export function NavbarDemo() {
     return (
         <div className="relative w-full flex items-center justify-center">
@@ -33,7 +34,7 @@ function Navbar({className}: { className?: string }) {
                     </div>
                     <div className="w-full flex justify-center items-center gap-10">
                         <MenuItem setActive={setActive} active={active} item="Trains">
-                            <div className="  text-sm grid grid-rows-2 gap-10 p-4">
+                            <div className="text-sm grid grid-rows-2 gap-10 p-4">
                                 <ProductItem
                                     title="Luxury Trains"
                                     href="/luxury-trains"

@@ -1,12 +1,13 @@
 import React from 'react';
-import {SparklesPreview} from '@/components/TrainCardHeader';
-import trainImage from "@/assets/the-sapphire-monarch.jpg"
+import { SparklesPreview } from '@/components/TrainCardHeader';
+import trainImage from "@/assets/the-sapphire-monarch.jpg";
 import { NavbarDemo } from "@/components/ui/Nav";
+import { DynamicButton } from "@/components/ui/DynamicButton";
 
 const TheSaphireMonarch = () => {
     return (
-        <div className="w-full min-h-screen flex flex-col items-center justify-start overflow-auto bg-background">
-            <NavbarDemo/>
+        <div className="w-full min-h-screen flex flex-col items-center justify-start overflow-auto bg-background px-4 sm:px-6 lg:px-8">
+            <NavbarDemo />
             <SparklesPreview
                 header="The Saphire Monarch"
                 image={trainImage.src}
@@ -19,6 +20,9 @@ const TheSaphireMonarch = () => {
                 of the ever-changing landscapes, allowing you to immerse yourself in the beauty of nature
                 as you travel."
             />
+            <div className="mb-4 sm:mb-6 md:mb-10 lg:mb-16">
+                <DynamicButton text="Back to Budget Trains" link="/budget-trains" />
+            </div>
         </div>
     );
 };
